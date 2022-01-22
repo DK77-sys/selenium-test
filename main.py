@@ -1,7 +1,6 @@
 import os
 from selenium import webdriver
 from flask import  *
-import flask
 
 op = webdriver.ChromeOptions()
 op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
