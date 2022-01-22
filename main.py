@@ -3,7 +3,7 @@ from selenium import webdriver
 from flask import  *
 
 op = webdriver.ChromeOptions()
-op.binary.location = os.environ.get("GOOGLE_CHROME_BIN")
+op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
 op.add_argument("--headless")
 op.add_argument("--no-sandbox")
 op.add_argument("--disable-dev-sh-usage")
