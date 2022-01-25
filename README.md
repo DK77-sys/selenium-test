@@ -1,2 +1,2 @@
 # selenium-test
-Testing Selenium Dengan Heroku
+Testing Selenium Flask Dengan Heroku
